@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1098409701177",
+    "firebase_url": "https://majorproject-c8ecd.firebaseio.com",
+    "project_id": "majorproject-c8ecd",
+    "storage_bucket": "majorproject-c8ecd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098409701177:android:8a3a0e9644a81111",
+        "android_client_info": {
+          "package_name": "com.example.sheliza.grid_nav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098409701177-fn6cr8ih325l6kl7iije9170h9ovlnn3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjuCAKg2WUTdaWaotPatf4Z4UJ7_BpY2w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScrollView
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="2dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:paddingTop="1dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#335885"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Your Name"
+            android:textColor="#335885"
+            android:id="@+id/textView_Name"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:padding="2dp"
+            android:layout_marginTop="170dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text=" Email Address"
+                android:textColor="#335885"
+                android:id="@+id/textView_Email"
+                android:padding="5dp"
+                android:layout_below="@+id/textView_LastName"
+                android:layout_marginTop="210dp"/>
+
+            <TextView
+                android:id="@+id/textView_Email_rcv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_Email"
+                android:layout_marginTop="2dp"
+                android:padding="5dp"
+                android:text=" Email Address rcv "
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Password "
+                android:textColor="#335885"
+                android:id="@+id/textView_Password"
+                android:padding="5dp"
+                android:layout_below="@+id/textView_Email_rcv"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Password rcv"
+                android:id="@+id/textView_Password_rcv"
+                android:padding="5dp"
+                android:layout_below="@+id/textView_Password"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text=" DESIGNATION"
+                android:textColor="#335885"
+                android:id="@+id/textView_Designation"
+                android:padding="5dp"
+                android:layout_below="@+id/textView_Password_rcv"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text=" DESIGNATION _Rcv"
+            android:id="@+id/textView_Designation_rcv"
+            android:padding="5dp"
+            android:layout_below="@+id/textView_Designation"
+            android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Address"
+                android:textColor="#335885"
+                android:id="@+id/textView_Address"
+                android:padding="5dp"
+                android:layout_below="@+id/textView_Designation_rcv"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Address Rcv"
+                android:id="@+id/textView_Address_rcv"
+                android:padding="5dp"
+                android:layout_below="@+id/textView_Address"
+                android:layout_marginTop="2dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text=" Contact"
+                android:textColor="#335885"
+                android:id="@+id/textView_Contact"
+                android:padding="5dp"
+                android:layout_below="@+id/textView_Address_rcv"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text=" Contact_rcv"
+                android:id="@+id/textView_Contact_rcv"
+                android:padding="5dp"
+                android:layout_below="@+id/textView_Contact"
+                android:layout_marginTop="5dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Salary"
+                android:id="@+id/textView_Salary"
+                android:textColor="#335885"
+                android:padding="5dp"
+                android:layout_below="@+id/textView_Contact_rcv"
+                android:layout_marginTop="2dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Salary Rcv"
+                android:id="@+id/textView_Salary_rcv"
+                android:padding="5dp"
+                android:layout_below="@+id/textView_Salary"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="Date Of Joining"
+                android:textColor="#335885"
+                android:padding="5dp"
+                android:id="@+id/textView_Date"
+                android:layout_below="@+id/textView_Salary_rcv"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="Date Of Joining rcv"
+                android:padding="5dp"
+                android:id="@+id/textView_Date_rcv"
+                android:layout_below="@+id/textView_Date"
+                android:layout_marginTop="5dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Gender"
+                android:id="@+id/textView_Gender"
+                android:textColor="#335885"
+                android:padding="5dp"
+                android:layout_below="@+id/textView_Date_rcv"
+                android:layout_marginTop="2dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Gender rcv"
+                android:id="@+id/textView_Gender_rcv"
+                android:padding="5dp"
+                android:layout_below="@+id/textView_Gender"
+                android:layout_marginTop="2dp"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

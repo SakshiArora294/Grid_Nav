@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sheliza.grid_nav.About_Us">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:text="Faculty Record Management System is a mobile application made to automate the pen paper marking of attendance and salary of employees. Each professor can mark the attendance by their own phones and can get the record of their salary of each month.
+  The main objective of our  project is to automate the teacher's record management system of college.
+  	The different types of users are
+•	HOD
+•	Teachers
+Modules: -   HOD module consists of the following sub modules
+•	View Profile
+•	Remainder
+•	Attendance
+•	Notification
+•	TimeTable
+Admin can view profile of each teacher and the attendance record of each teacher. He can send the notifications to all the teachers and can also view the sent notifications. Admin can amke the timetables for each teacher.
+ Teachers' module consists of the following modules
+•	My Profile
+•	Remainder
+•	Attendance
+•	Notification
+•	Salary
+In the teachers' section, each teacher can view their own profile. They can set the remainder according to their schedules and can view their own attendance. They can view their notifications sent by the admin in the notification module. Each teacher can view their attendance record by the salary module and can also check their absents of the month.
+View site option will also be there in both the modules by which can can check the updates from the official college site. In the end, Logout option will be there to close the application.
+    Tis project is successfully done by me(Sakshi Arora) and my partner Sheliza Arora with the help and guidelines of our Teacher Mr. Ishant Kumar"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
